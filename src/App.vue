@@ -1,15 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <NativeIndicator />
+  <CustomIndicator />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import NativeIndicator from './components/NativeIndicator.vue'
+import CustomIndicator from './components/CustomIndicator.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    NativeIndicator,
+    CustomIndicator,
   }
 }
 </script>
